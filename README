@@ -1,0 +1,21 @@
+Existing CRC modules or code used either inefficient table look ups, didn't convert strings to binary data, or both. This creates problems when hashing the same value across different languages and platforms.
+
+Based off of https://github.com/alexgorbatchev/node-crc and http://stackoverflow.com/a/3346629/718051
+
+To install:
+
+mikey$ git clone git@github.com:mikepulaski/node-crc32.git
+mikey$ npm install crc32/
+
+To use:
+
+mikey$ node              
+
+> var crc32 = require('crc32')
+undefined
+> crc32('hello world')
+222957957
+> crc32('1_hi') // try doing this without binary encoding
+2541293830
+
+Voila... c'est hyper sympa.

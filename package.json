@@ -1,0 +1,16 @@
+{
+  "author": "Mike Pulaski <mikey@technipunk.com> (http://mikep.ulaski.com)",
+  "name": "crc32",
+  "description": "CRC32 encryption based on binary buffers",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mikepulaski/node-crc32.git"
+  },
+  "main": "crc.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
