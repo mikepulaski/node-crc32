@@ -65,6 +65,9 @@ module.exports = function(obj) {
     if ((typeof obj) === 'string') {
         buffer = new Buffer(obj, 'binary');
     }
+    else if ((typeof obj) === 'number') {
+        buffer = obj.toString();
+    }
     else {
         buffer = obj;
     }
